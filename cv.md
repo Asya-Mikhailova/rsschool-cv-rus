@@ -4,6 +4,13 @@
 
 **Last name:** Mikhailova
 
+**Contact info:**
+
+```
+email: asya.mikhailova1@gmail.com 
+phone: +48 515 356 877 
+skype: marishka-666
+```
 
 **Goals:**
 To get a position as a Junior Frontend Developer. 
