@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #EED9DC;
+    color: #E2C290;
+    height: 150px;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 40px;
+}
+
+footer{
+    background-color: #EED9DC;
+    height: 50px;
+    color: #E2C290;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5rem;
+    
+}
+
+img{
+    border-radius: 5px;
+    width: 200px;
+}
+
+.decor{
+    font-weight: 600;
+    font-size: 21px;
+    color: #E2C290;
+    
+}
+
+.list {
+    list-style: disc;
+    display: inline-block;
+    
+}
+
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #E2C290; /* Change the color */
+    font-weight: 1000; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */ 
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+  
+
+table td, table td * {
+    vertical-align: top;
+    padding: 5px;
+    
+}
+
+.info{
+    margin-top: 50px;
+}
+ 
+
+td.image{
+    text-align: right;
+}
+
+.wi{
+    width: 400px;
+}
+
+
+a {
+    color: #98D2EB;
+
+}
+
+a:hover{
+    color: #759EB8;
+}
+
+a:visited{
+    color: #E2C290;
+}
+
+a:visited:hover{
+    color: #759EB8;
+}
