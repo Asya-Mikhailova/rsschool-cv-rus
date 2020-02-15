@@ -39,6 +39,7 @@ img{
     font-weight: 600;
     font-size: 21px;
     color: #E2C290;
+    
 }
 
 .list {
@@ -56,20 +57,27 @@ ul li::before {
     margin-left: -1em; /* Also needed for space (tweak if needed) */
   }
 
-  .info{
-      margin: 50px;
-  }
+  
 
 table td, table td * {
     vertical-align: top;
     padding: 5px;
-  
+    
 }
 
+.info{
+    margin-top: 50px;
+}
+ 
 
 td.image{
     text-align: right;
 }
+
+.wi{
+    width: 400px;
+}
+
 
 a {
     color: #98D2EB;
